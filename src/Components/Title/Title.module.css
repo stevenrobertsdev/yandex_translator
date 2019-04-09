@@ -1,0 +1,12 @@
+
+.Title {
+    text-align: center;
+    font-size:42px;
+    font-weight:400;
+    color:#fff;
+    margin-top: 40px;
+}
+  
+.Title span {
+  font-weight:800;
+}
