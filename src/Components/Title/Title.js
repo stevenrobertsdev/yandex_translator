@@ -4,7 +4,7 @@ import styles from "./Title.module.css";
 
 const Title = () => {
     return (
-        <h3 className={styles.Title}><span>YANDEX API</span> TRANSLATOR</h3>
+        <h3 className={styles.Title}><span>YANDEX API</span> TRANSLATOR 1.0</h3>
     )
 };
 
