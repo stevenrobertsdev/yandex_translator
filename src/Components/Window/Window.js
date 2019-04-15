@@ -50,13 +50,13 @@ class Window extends Component {
             <section className='grid-container'>
                 <div className="grid-x grid-margin-x">
                     <div className={['grid-x', 'grid-margin-x', styles.Window].join(" ")}>
-                        <div className="cell small-12 medium-6">
+                        <div className="cell small-12 medium-12 large-6">
                             <h4>English </h4>
                             <textarea placeholder="Enter text here..."
                                 onKeyUp={e => {this.collectTextHandler(e)}}/>
                         </div>
 
-                        <div className="cell small-12 medium-6">
+                        <div className="cell small-12 medium-12 large-6">
                             <select onChange={e => {this.collectLangHandler(e)}}>
                                 <option value="de">German</option>
                                 <option value="fr">French</option>
