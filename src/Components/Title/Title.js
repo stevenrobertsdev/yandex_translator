@@ -1,12 +1,7 @@
-import React from 'react';
+import React from "react";
 
 import styles from "./Title.module.css";
 
-const Title = () => {
-    return (
-        <h3 className={styles.Title}><span>YANDEX API</span> TRANSLATOR 1.0</h3>
-    )
+export const Title = ({ children }) => {
+  return <h3 className={styles.Title}>{children}</h3>;
 };
-
-export default Title;
-
