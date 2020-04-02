@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
 
 body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #22415b; /* Old browsers */
-  background: -moz-linear-gradient(left, #22415b 0%, #1b1b34 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #22415b 0%,#1b1b34 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #22415b 0%,#1b1b34 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #ef473a;
+  background: -moz-linear-gradient(left, #cb2d3e 0%, #ef473a 100%);
+  background: -webkit-linear-gradient(left, #cb2d3e 0%, #ef473a 100%);
+  background: linear-gradient(to right, #cb2d3e 0%, #ef473a 100%);
 }
 
 code {
@@ -16,9 +16,14 @@ code {
     monospace;
 }
 
-
-h1,h2,h3,h4,h5,h6,p {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
 }
